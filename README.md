@@ -7,11 +7,13 @@ Biblioteca visual e construtor local de **resumos jurídicos** em páginas A4 e 
 ## Funcionalidades
 
 - **Meus resumos** — crie cadernos visuais por matéria, tema ou revisão (até 250 resumos, 50 páginas cada).
-- **Construtor** — monte páginas com blocos de título, subtítulo, tópico, subtópico e elementos visuais.
+- **Construtor** — monte páginas com blocos de título, subtítulo, tópico, listas, tabelas e elementos visuais, além de blocos jurídicos: conceito, artigo de lei, jurisprudência, súmula, prazo, mnemônico, doutrina, linha do tempo e mais.
+- **Tipografia por bloco** — escolha entre 15 fontes (manuscritas, serifadas, display) para cada bloco.
+- **Páginas** — adicione, renomeie, duplique e exclua páginas de cada resumo.
 - **Biblioteca visual** — 43 coleções de modelos de lettering para usar nos seus resumos.
 - **Favoritos** — guarde os estilos que você mais usa.
 - **Backup** — exporte e importe seus dados a qualquer momento.
-- **Exportação** — imprima em A4/4:3 ou exporte como PNG.
+- **Exportação** — exporte a página do resumo como PNG em alta resolução ou imprima direto do Construtor (A4/4:3).
 
 ## Privacidade
 
