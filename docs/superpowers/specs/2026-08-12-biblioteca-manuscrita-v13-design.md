@@ -100,11 +100,15 @@ As categorias serão:
 5. Divisores;
 6. Páginas completas.
 
-No celular, a barra será horizontal, rolável e terá indicação visual de continuidade.
+Uma opção inicial “Todos” misturará as seis famílias no mesmo mosaico. No celular, a barra será horizontal, rolável e terá indicação visual de continuidade.
 
 ### 6.3 Galeria editorial
 
-A galeria usará composição editorial assimétrica, sem cartões digitais idênticos. Os modelos poderão aparecer como:
+A galeria adotará o ritmo de um painel de ideias do Pinterest: colunas contínuas, alturas variadas, pouco espaço desperdiçado e leitura predominantemente visual. Não copiará a interface do Pinterest; usará essa lógica de mosaico para apresentar materiais jurídicos originais.
+
+Na visualização “Todos”, páginas completas, títulos aplicados e estruturas aparecerão misturados desde a primeira dobra. A galeria não começará com símbolos isolados nem esconderá as páginas completas numa seção secundária.
+
+Os modelos poderão aparecer como:
 
 - tiras horizontais de papel;
 - notas verticais estreitas;
@@ -113,6 +117,13 @@ A galeria usará composição editorial assimétrica, sem cartões digitais idê
 - pequenas sequências didáticas.
 
 Variações de proporção serão deliberadas, mas os textos e desenhos permanecerão legíveis. Bordas, sombras e raios não serão repetidos mecanicamente.
+
+As referências da captura fornecida pela usuária estabelecem quatro requisitos adicionais:
+
+- misturar fotografias simuladas de caderno, folhas digitais e infográficos jurídicos;
+- alternar peças verticais, quadradas e horizontais sem linhas rígidas;
+- mostrar lettering aplicado dentro de resumos reais, e não apenas alfabetos soltos;
+- variar paletas entre azul, verde, lilás, rosa, amarelo e neutros, mantendo uma cor dominante por peça.
 
 ### 6.4 Modelo individual
 
@@ -313,4 +324,4 @@ A v13 só poderá ser publicada quando:
 - Divisores: https://www.pinterest.com/pin/10836855340894342/
 - Famílias de layout: https://www.pinterest.com/pin/985231164434692/
 - Guia de estruturas visuais: https://www.pinterest.com/pin/90072061276937987/
-
+- Painel pessoal de ideias fornecido pela usuária: `upload/Captura de Tela 2026-08-12 às 16.42.27.png`
