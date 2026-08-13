@@ -4,7 +4,7 @@ Biblioteca de ideias de **lettering fáceis de fazer à mão** para deixar cader
 
 **✨ Acesse online:** https://lanabiatriz2001-ai.github.io/caderno-juridico/
 
-São **311 ideias** organizadas em 12 categorias.
+São **610 ideias** organizadas em 12 categorias.
 
 ## O que tem
 
