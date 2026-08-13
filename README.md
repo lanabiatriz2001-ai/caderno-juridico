@@ -4,6 +4,8 @@ Biblioteca de ideias de **lettering fáceis de fazer à mão** para deixar cader
 
 **✨ Acesse online:** https://lanabiatriz2001-ai.github.io/caderno-juridico/
 
+São **311 ideias** organizadas em 12 categorias.
+
 ## O que tem
 
 - **Títulos** — banners de fita, marca-texto atravessado, letra adesivo, cartão com fita, cabeçalho completo…
@@ -13,7 +15,11 @@ Biblioteca de ideias de **lettering fáceis de fazer à mão** para deixar cader
 - **Setas & avisos** — setas retas/curvas/tracejadas, alerta "cai em prova", balões de lembrete, chaves de agrupamento…
 - **Divisores** — pontinhos, ondinhas, linha + coração, pinceladas, meia-luas…
 - **Caixas** — post-it com fita, citação com aspas, papel quadriculado, caixa "para lembrar"…
-- **Marca-texto** — 8 duplas de cores que combinam, com exemplo de uso.
+- **Marca-texto** — 20 duplas + 5 trios de cores que combinam, com exemplo de uso.
+- **Cabeçalhos** — data + matéria, semaninha, número de página, contagem para a prova…
+- **Letras** — estilos de escrita para treinar (cursiva, contorno, 3D, caixa alta espaçada…)
+- **Esquemas** — estruturas prontas para estudar Direito: comparativo de institutos, fluxo do processo, artigo anotado, quadro de prazos, ficha de julgado, método Cornell, mnemônicos…
+- **Fitas & doodles** — washi tapes, rabiscos, cantinhos, clipes e alfinetes desenhados.
 
 Cada modelo tem uma dica de **como fazer** (ex.: "caixa + sombra deslocada colorida") — tudo reproduzível só com caneta fina e marca-texto.
 

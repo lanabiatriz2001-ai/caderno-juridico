@@ -248,6 +248,70 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--acc-ink);outlin
 .m-combo .sample em{font-style:normal;padding:1px 5px;border-radius:3px}
 .m-combo .names{font-family:'Gochi Hand',cursive;font-size:12.5px;color:var(--ink-2)}
 
+/* — extras: letras, cabeçalhos, esquemas, adesivos — */
+.m-outline{font-size:34px;color:var(--ink)}
+@supports(-webkit-text-stroke:1px black){.m-outline{color:transparent;-webkit-text-stroke:1.6px var(--ink)}}
+.m-spaced{font-family:'Patrick Hand',cursive;font-size:20px;letter-spacing:.4em;text-transform:uppercase;padding-left:.4em}
+.m-2tone{font-size:26px}.m-2tone .a{font-family:'Dancing Script',cursive;font-weight:700;color:var(--acc-ink);font-size:30px}.m-2tone .b2{font-family:'Patrick Hand',cursive;text-transform:uppercase;letter-spacing:.12em;font-size:18px}
+.m-underblock{font-size:26px;box-shadow:inset 0 -12px 0 var(--acc);padding:0 8px 2px}
+.m-circled{padding:10px 26px;border:2.5px solid var(--acc-ink);border-radius:48% 52% 55% 45%/60% 55% 45% 40%;font-size:24px}
+.m-bunting{display:grid;gap:8px;justify-items:center}
+.m-bunting .flags{display:flex;gap:6px}
+.m-bunting .fl{width:16px;height:20px;clip-path:polygon(0 0,100% 0,50% 100%)}
+.m-3d{font-size:32px;text-shadow:2px 2px 0 var(--acc),4px 4px 0 rgba(91,70,54,.2)}
+.m-margem{display:flex;align-items:center;gap:12px;font-size:24px}
+.m-margem::before{content:"";align-self:stretch;width:0;border-left:3px solid var(--acc-ink);border-right:1.5px solid var(--acc-ink);padding-left:3px}
+.m-cloudbox{padding:12px 26px;background:var(--acc-soft);border:2px solid var(--ink);border-radius:26px 30px 28px 24px;font-size:22px;position:relative}
+.m-cloudbox::before{content:"";position:absolute;left:-8px;top:50%;width:14px;height:14px;border-radius:50%;background:var(--acc-soft);border:2px solid var(--ink)}
+.m-cab{width:100%;max-width:220px;font-family:'Patrick Hand',cursive;color:var(--ink)}
+.m-cab .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.m-cab .sm{font-family:'Gochi Hand',cursive;font-size:12px;color:var(--ink-2)}
+.m-cab .ttl{font-family:'Caveat',cursive;font-weight:700;font-size:24px}
+.m-cab .ln{border-top:2px solid var(--ink);margin-top:4px}
+.m-cab .lnd{border-top:2px dashed var(--ink-2);margin-top:4px}
+.m-cab .lndot{border-top:3px dotted var(--acc-ink);margin-top:4px}
+.m-week{display:flex;gap:4px;font-family:'Gochi Hand',cursive;font-size:11px}
+.m-week span{width:24px;height:24px;display:grid;place-items:center;border:1.5px solid var(--ink);border-radius:50%}
+.m-week .on{background:var(--acc)}
+.m-pagenum{display:grid;place-items:center;width:44px;height:44px;border:2px solid var(--ink);border-radius:50% 46% 54% 48%/52% 48% 55% 45%;font-family:'Patrick Hand',cursive;font-size:13px;background:#fff;box-shadow:3px 3px 0 var(--acc)}
+.sch{font-family:'Patrick Hand',cursive;font-size:12.5px;color:var(--ink);max-width:215px;line-height:1.35}
+.sch .hd{font-family:'Caveat',cursive;font-weight:700;font-size:17px;background:linear-gradient(transparent 55%,var(--acc) 55%,var(--acc) 92%,transparent 92%);display:inline-block;padding:0 4px;margin-bottom:5px}
+.sch-flow{display:grid;gap:4px;justify-items:center}
+.sch-flow .bx{border:2px solid var(--ink);padding:2px 10px;background:#fff;border-radius:6px}
+.sch-flow .bx.hl{background:var(--acc-soft)}
+.sch-flow .ar{color:var(--acc-ink);font-size:13px;line-height:1}
+.sch-comp{display:grid;grid-template-columns:1fr 1fr;gap:7px;width:215px}
+.sch-comp .col{border:2px solid var(--ink);border-radius:8px;overflow:hidden;background:#fff}
+.sch-comp .h{padding:3px 7px;background:var(--acc);font-weight:700;text-align:center}
+.sch-comp .b3{padding:5px 7px}
+.sch-table{border-collapse:collapse;background:#fff}
+.sch-table th,.sch-table td{border:1.5px solid var(--ink);padding:3px 8px;font-weight:400}
+.sch-table th{background:var(--acc);font-weight:700}
+.sch-tl{list-style:none;margin:0;padding:0 0 0 4px}
+.sch-tl li{position:relative;padding:0 0 8px 18px;border-left:2px solid var(--acc-ink)}
+.sch-tl li:last-child{padding-bottom:0;border-left-color:transparent}
+.sch-tl li::before{content:"";position:absolute;left:-6px;top:2px;width:10px;height:10px;border-radius:50%;background:var(--acc-ink)}
+.sch-mind{display:flex;align-items:center;gap:10px}
+.sch-mind .c{padding:5px 12px;border:2px solid var(--ink);border-radius:999px;background:var(--acc-soft);font-weight:700}
+.sch-mind .brs{display:grid;gap:4px}
+.sch-mind .br{position:relative;padding-left:16px}
+.sch-mind .br::before{content:"";position:absolute;left:0;top:50%;width:12px;border-top:2px solid var(--acc-ink)}
+.sch-cornell{width:215px;border:2px solid var(--ink);background:#fff}
+.sch-cornell .top{display:grid;grid-template-columns:64px 1fr}
+.sch-cornell .top>div{padding:5px 7px;min-height:52px}
+.sch-cornell .top>div:first-child{border-right:1.5px dashed var(--ink-2);background:var(--acc-soft)}
+.sch-cornell .foot{border-top:2px solid var(--ink);padding:4px 7px;background:var(--acc-soft)}
+.sch-art{width:215px;border:2px solid var(--ink);background:#fff;padding:7px 9px}
+.sch-art .ref{display:inline-block;background:var(--acc);padding:1px 7px;border-radius:3px;font-weight:700;margin-bottom:4px}
+.sch-art em{font-style:normal;background:linear-gradient(transparent 55%,var(--acc) 55%,var(--acc) 92%,transparent 92%)}
+.sch-art .nota{margin-top:5px;font-family:'Gochi Hand',cursive;font-size:11.5px;color:var(--acc-ink)}
+.m-washi{width:160px;height:28px;transform:rotate(-2deg);border-left:1px dashed rgba(91,70,54,.25);border-right:1px dashed rgba(91,70,54,.25);box-shadow:0 2px 6px rgba(91,70,54,.12);opacity:.95}
+.m-doodleset{display:flex;gap:14px;font-size:22px;color:var(--acc-ink)}
+.m-corner{position:relative;width:90px;height:70px}
+.m-corner::before{content:"";position:absolute;inset:0;border:2.5px solid var(--ink);border-right:0;border-bottom:0;border-radius:12px 0 0 0}
+.m-corner .dd{position:absolute;left:8px;top:6px;color:var(--acc-ink);font-size:15px}
+.m-zigzag{width:100%;max-width:210px;height:12px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='10' viewBox='0 0 20 10'%3E%3Cpath d='M0 8 L5 2 L10 8 L15 2 L20 8' fill='none' stroke='%238a7361' stroke-width='2'/%3E%3C/svg%3E") repeat-x center}
+.m-loopline{width:100%;max-width:210px;height:16px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='14' viewBox='0 0 36 14'%3E%3Cpath d='M0 8 C6 8 6 3 11 3 C16 3 16 11 11 11 C8 11 8 8 14 8 L36 8' fill='none' stroke='%238a7361' stroke-width='1.8'/%3E%3C/svg%3E") repeat-x center}
 @media(max-width:640px){
   .shell{padding:20px 12px 70px}
   .toolbar{top:8px;padding:11px}
@@ -269,7 +333,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--acc-ink);outlin
     <h1>Caderno Jurídico</h1>
     <span class="sub">ideias de lettering fáceis de fazer à mão ♡</span>
     <div class="doodles" aria-hidden="true">✦ ✧ ♡ ✦ ✧</div>
-    <p class="note">Todos os modelos usam só <b>caneta fina + marca-texto</b>. Escolha uma cor, salve seus favoritos e reproduza no papel.</p>
+    <p class="note"><b id="total-count"></b> — tudo usando só <b>caneta fina + marca-texto</b>. Escolha uma cor, salve seus favoritos e reproduza no papel.</p>
   </header>
 
   <div class="toolbar">
@@ -317,13 +381,17 @@ var PALETTES=[
 /* ---------- categories ---------- */
 var CATS=[
   {id:'titulos',label:'Títulos',icon:'T',hint:'para abrir a página com estilo'},
+  {id:'cabecalhos',label:'Cabeçalhos',icon:'H',hint:'data, matéria e página com charme'},
   {id:'subtitulos',label:'Subtítulos',icon:'S',hint:'para organizar as seções'},
   {id:'topicos',label:'Tópicos',icon:'01',hint:'para numerar e destacar assuntos'},
   {id:'subtopicos',label:'Subtópicos',icon:'•',hint:'marcadores para detalhar ideias'},
+  {id:'letras',label:'Letras',icon:'Aa',hint:'estilos de escrita para treinar'},
   {id:'setas',label:'Setas & avisos',icon:'→',hint:'para conectar e chamar atenção'},
   {id:'divisores',label:'Divisores',icon:'~',hint:'para separar blocos com charme'},
   {id:'caixas',label:'Caixas',icon:'□',hint:'para conceitos, súmulas e lembretes'},
-  {id:'marcatexto',label:'Marca-texto',icon:'▰',hint:'duplas de cores que combinam'},
+  {id:'esquemas',label:'Esquemas',icon:'⚖',hint:'estruturas prontas para estudar Direito'},
+  {id:'marcatexto',label:'Marca-texto',icon:'▰',hint:'combinações de cores que funcionam'},
+  {id:'adesivos',label:'Fitas & doodles',icon:'✦',hint:'washi tapes, rabiscos e cantinhos'},
   {id:'favoritos',label:'Favoritos ♡',icon:'♡',hint:'seus modelos salvos'}
 ];
 
@@ -430,9 +498,198 @@ var MODELS=[
 {id:'mt-8',cat:'marcatexto',name:'Cinza + Amarelo',how:'neutro cinza · chave amarelo',combo:['#e3e0da','#f7e6a5'],sample:['neutro','palavra-chave']}
 ];
 
+/* — títulos extras — */
+MODELS.push(
+{id:'tit-outline',cat:'titulos',name:'Letra contorno',how:'só o contorno, sem preencher',html:'<div class="m-outline hand">'+W+'</div>'},
+{id:'tit-spaced',cat:'titulos',name:'Maiúsculas espaçadas',how:'letras de forma bem separadas',html:'<div class="m-spaced">'+W+'</div>'},
+{id:'tit-2tone',cat:'titulos',name:'Duas letras, dois tons',how:'cursiva colorida + forma neutra',html:'<div class="m-2tone"><span class="a">Direito</span> <span class="b2">Civil</span></div>'},
+{id:'tit-underblock',cat:'titulos',name:'Base de marca-texto',how:'barra grossa sob a palavra',html:'<div class="m-underblock hand">'+W+'</div>'},
+{id:'tit-circled',cat:'titulos',name:'Circulado à mão',how:'oval solto em volta do título',html:'<div class="m-circled hand">'+W+'</div>'},
+{id:'tit-bunting',cat:'titulos',name:'Varal de bandeirinhas',how:'triângulos pendurados + título',html:'<div class="m-bunting"><div class="flags"><span class="fl" style="background:var(--acc)"></span><span class="fl" style="background:var(--acc-soft);border:1px solid var(--acc-ink)"></span><span class="fl" style="background:var(--acc)"></span><span class="fl" style="background:var(--acc-soft);border:1px solid var(--acc-ink)"></span><span class="fl" style="background:var(--acc)"></span></div><div class="hand" style="font-size:26px">'+W+'</div></div>'},
+{id:'tit-3d',cat:'titulos',name:'Sombra dupla 3D',how:'repita o contorno deslocado 2×',html:'<div class="m-3d hand">'+W+'</div>'},
+{id:'tit-margem',cat:'titulos',name:'Linha dupla na margem',how:'traço grosso + fino à esquerda',html:'<div class="m-margem hand">'+W+'</div>'},
+{id:'tit-cloud',cat:'titulos',name:'Nuvem de título',how:'balão fofinho arredondado',html:'<div class="m-cloudbox hand">'+W+'</div>'},
+{id:'tit-hearts',cat:'titulos',name:'Entre corações',how:'♡ título ♡',html:'<div class="m-dashes hand" style="font-size:26px">♡ '+W+' ♡</div>'},
+{id:'tit-strip',cat:'titulos',name:'Tira de papel pautado',how:'recorte com linhas a lápis',html:'<div class="m-gridtape hand" style="font-size:24px;transform:rotate(-.5deg)">'+W+'</div>'},
+{id:'tit-firstbig',cat:'titulos',name:'Inicial gigante',how:'primeira letra bem maior',html:'<div class="print" style="font-size:22px"><span class="script" style="font-size:44px;color:var(--acc-ink)">D</span>ireito Civil</div>'});
+
+/* — cabeçalhos — */
+MODELS.push(
+{id:'cab-classico',cat:'cabecalhos',name:'Data + matéria + linha',how:'tudo numa linha, traço embaixo',html:'<div class="m-cab"><div class="row"><span class="sm">12 · ago · 2026</span><span class="ttl">Civil</span><span class="sm">aula 03</span></div><div class="ln"></div></div>'},
+{id:'cab-dupla',cat:'cabecalhos',name:'Linha dupla',how:'traço grosso + traço fino',html:'<div class="m-cab"><div class="row"><span class="ttl">Processo Penal</span><span class="sm">pág. 12</span></div><div class="ln"></div><div class="lnd" style="margin-top:2px"></div></div>'},
+{id:'cab-pontilhado',cat:'cabecalhos',name:'Pontilhado colorido',how:'pontinhos de marca-texto',html:'<div class="m-cab"><div class="row"><span class="sm">✿ revisão</span><span class="ttl">Constitucional</span><span class="sm">♡</span></div><div class="lndot"></div></div>'},
+{id:'cab-fita',cat:'cabecalhos',name:'Com fita no canto',how:'washi segurando o cabeçalho',html:'<div class="m-cab" style="position:relative;padding-top:8px"><i style="position:absolute;right:6px;top:-6px;width:56px;height:16px;background:var(--acc);opacity:.6;transform:rotate(3deg)"></i><div class="row"><span class="ttl">Tributário</span><span class="sm">seg · 12/08</span></div><div class="ln"></div></div>'},
+{id:'cab-semana',cat:'cabecalhos',name:'Semaninha',how:'bolinhas s t q q s s d',html:'<div class="m-cab"><div class="m-week"><span>s</span><span class="on">t</span><span>q</span><span>q</span><span>s</span><span>s</span><span>d</span></div></div>'},
+{id:'cab-pagina',cat:'cabecalhos',name:'Número de página',how:'circulinho com sombra no canto',html:'<div class="m-pagenum">pág.<br>07</div>'},
+{id:'cab-pill',cat:'cabecalhos',name:'Matéria em pílula',how:'pílula colorida + data fora',html:'<div class="m-cab"><div class="row"><span class="print" style="border:2px solid var(--ink);border-radius:999px;padding:2px 12px;background:var(--acc-soft)">Direito Penal</span><span class="sm">12 · ago</span></div></div>'},
+{id:'cab-banner',cat:'cabecalhos',name:'Banner central',how:'fita no centro + traços dos lados',html:'<div class="m-cab"><div class="row"><span class="ln" style="flex:1"></span><span class="m-ribbon print" style="font-size:14px;padding:3px 14px">Empresarial</span><span class="ln" style="flex:1"></span></div></div>'},
+{id:'cab-canto',cat:'cabecalhos',name:'Cantinho decorado',how:'canto de moldura + doodle',html:'<div class="m-corner"><span class="dd">✦ ✧</span></div>'},
+{id:'cab-tema',cat:'cabecalhos',name:'Tema do dia',how:'"hoje:" manuscrito + destaque',html:'<div class="m-cab"><span class="sm">hoje:</span> <span class="t-hl print" style="font-size:17px">controle de constitucionalidade</span></div>'},
+{id:'cab-meta',cat:'cabecalhos',name:'Meta de estudo',how:'caixinha de marcar + meta',html:'<div class="m-cab"><span class="print">☐ ler 10 págs &nbsp; ☐ 20 questões &nbsp; ☑ lei seca</span><div class="lnd"></div></div>'},
+{id:'cab-humor',cat:'cabecalhos',name:'Clima & humor',how:'sol/nuvem + carinha do dia',html:'<div class="m-cab"><div class="row"><span class="sm" style="font-size:16px">☀ ☁ ☂</span><span class="ttl">Administrativo</span><span class="sm" style="font-size:16px">◡̈</span></div><div class="ln"></div></div>'},
+{id:'cab-index',cat:'cabecalhos',name:'Mini sumário',how:'nesta página: itens curtinhos',html:'<div class="m-cab"><span class="sm">nesta página ↴</span><div class="print" style="font-size:13px">1. conceito · 2. espécies · 3. súmulas</div><div class="lndot"></div></div>'},
+{id:'cab-prova',cat:'cabecalhos',name:'Contagem p/ prova',how:'destaque com dias restantes',html:'<div class="m-cab"><div class="row"><span class="ttl">Reta final</span><span class="print" style="background:var(--acc);border-radius:6px;padding:1px 9px">faltam 45 dias!</span></div></div>'},
+{id:'cab-assunto',cat:'cabecalhos',name:'Assunto + subtema',how:'grande + pequeno alinhados',html:'<div class="m-cab" style="text-align:center"><div class="ttl" style="font-size:28px">Recursos</div><span class="sm">— apelação e agravo —</span></div>'});
+
+/* — subtítulos extras — */
+MODELS.push(
+{id:'sub-risco2',cat:'subtitulos',name:'Risco duplo',how:'duas linhas rentes embaixo',html:'<div class="print" style="font-size:20px;border-bottom:4px double var(--ink);padding-bottom:3px">principais ideias</div>'},
+{id:'sub-loop',cat:'subtitulos',name:'Lacinho na linha',how:'linha com laço no meio',html:'<div style="display:grid;gap:2px;justify-items:center"><span class="print" style="font-size:20px">comparação</span><span class="m-loopline"></span></div>'},
+{id:'sub-lateral',cat:'subtitulos',name:'Barrinha lateral',how:'barra curta colorida à esquerda',html:'<div class="print" style="font-size:19px;border-left:6px solid var(--acc);padding-left:10px">jurisprudência</div>'},
+{id:'sub-sticker',cat:'subtitulos',name:'Palavra adesivo',how:'contorno branco em volta',html:'<div class="m-sticker print" style="font-size:22px">dados importantes</div>'},
+{id:'sub-parenteses',cat:'subtitulos',name:'Entre parênteses',how:'( palavra ) desenhados grandes',html:'<div class="m-brace" style="font-size:19px"><span class="br" style="font-size:38px">(</span><span class="print">para lembrar</span><span class="br" style="font-size:38px">)</span></div>'},
+{id:'sub-vfita',cat:'subtitulos',name:'Fita em V',how:'fita com pontas cortadas em V',html:'<div class="m-ribbon print" style="font-size:17px;padding:5px 20px">causas</div>'},
+{id:'sub-underhearts',cat:'subtitulos',name:'Linha de coraçõezinhos',how:'♡♡♡ como sublinhado',html:'<div style="display:grid;justify-items:center;gap:1px"><span class="print" style="font-size:20px">conclusão</span><span style="color:var(--acc-ink);font-size:11px;letter-spacing:3px">♡♡♡♡♡♡</span></div>'},
+{id:'sub-numseta',cat:'subtitulos',name:'Nº + seta',how:'número, seta e palavra',html:'<div class="m-num"><span class="n print" style="font-size:16px">2</span><span style="color:var(--acc-ink)">➳</span><span class="t print">desenvolvimento</span></div>'});
+
+/* — letras (estilos de escrita) — */
+var LETTER_STYLES=[
+['let-caveat','Cursiva solta','caneta fina, inclinação leve','<div class="hand" style="font-size:34px">Aa Bb Cc</div>'],
+['let-caveat-hl','Cursiva + destaque','marca-texto atrás da cursiva','<div class="hand m-hl" style="font-size:30px">Aa Bb Cc</div>'],
+['let-print','Forma redondinha','letra de forma arredondada','<div class="print" style="font-size:28px">Aa Bb Cc</div>'],
+['let-shadows','Manuscrita alta','letras altas e estreitas','<div style="font-family:\'Shadows Into Light\',cursive;font-size:30px;color:var(--ink)">Aa Bb Cc</div>'],
+['let-gochi','Redonda infantil','traço grosso e alegre','<div class="tiny" style="font-size:28px">Aa Bb Cc</div>'],
+['let-dancing','Caligrafia elegante','cursiva com contraste','<div class="script" style="font-size:32px">Aa Bb Cc</div>'],
+['let-caps','Caixa alta espaçada','maiúsculas separadas','<div class="m-spaced" style="font-size:18px">ABC abc</div>'],
+['let-outline','Contorno vazado','desenhe e não preencha','<div class="m-outline hand" style="font-size:32px">Aa Bb</div>'],
+['let-3d','Com sombrinha','sombra deslocada na cor','<div class="m-3d hand" style="font-size:30px">Aa Bb</div>'],
+['let-serif','Serifinhas fake','pezinhos nas hastes','<div style="font-family:Georgia,serif;font-size:26px;color:var(--ink)">Aa Bb Cc</div>'],
+['let-mix','Mistura de estilos','cursiva + forma na mesma palavra','<div style="font-size:26px"><span class="script" style="color:var(--acc-ink)">De</span><span class="m-spaced" style="font-size:16px">CISÃO</span></div>'],
+['let-under','Cada letra sublinhada','tracinho sob cada letra','<div class="print" style="font-size:24px;letter-spacing:6px;border-bottom:2px dashed var(--acc-ink);padding-bottom:4px">a b c</div>'],
+['let-numeros','Números decorados','algarismos com bolinhas','<div class="print" style="font-size:26px;color:var(--acc-ink)">1· 2· 3· 4·</div>'],
+['let-mini',"Minúsculas mini",'letrinhas pequenas e juntas','<div class="tiny" style="font-size:18px;letter-spacing:.05em">abcdefg hijklm</div>']
+];
+LETTER_STYLES.forEach(function(item){MODELS.push({id:item[0],cat:'letras',name:item[1],how:item[2],html:item[3]});});
+
+/* — setas & avisos extras — */
+MODELS.push(
+{id:'ar-zig',cat:'setas',name:'Seta zigue-zague',how:'vai e volta até a ponta',html:'<div class="m-arrowline print"><svg width="64" height="18" viewBox="0 0 64 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M2 14 L14 4 L26 14 L38 4 L50 14M44 12l8 2 -2 -8"/></svg>efeito cascata</div>'},
+{id:'ar-loop',cat:'setas',name:'Seta com lacinho',how:'loop no meio do caminho',html:'<div class="m-arrowline print"><svg width="70" height="22" viewBox="0 0 70 22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M2 12 C14 12 14 4 20 4 C26 4 26 14 20 14 C16 14 18 12 28 12 L58 12 M52 6 l8 6 -8 6"/></svg>daí decorre…</div>'},
+{id:'ar-cuidado',cat:'setas',name:'Placa de cuidado',how:'triângulo + ! dentro',html:'<div class="m-exclaim print"><svg width="34" height="30" viewBox="0 0 34 30" fill="none"><path d="M17 3 L31 27 L3 27 Z" stroke="var(--acc-ink)" stroke-width="2.4" fill="var(--acc-soft)" stroke-linejoin="round"/><text x="17" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="var(--acc-ink)">!</text></svg><span class="t-hl">pegadinha de prova</span></div>'},
+{id:'ar-naoconfundir',cat:'setas',name:'Não confundir ≠',how:'≠ grande entre os termos',html:'<div class="m-arrowline print">prescrição <span style="color:var(--acc-ink);font-size:24px;font-weight:700">≠</span> decadência</div>'},
+{id:'ar-equivale',cat:'setas',name:'Equivalência =',how:'= entre expressões sinônimas',html:'<div class="m-arrowline print">CF/88 <span style="color:var(--acc-ink);font-size:22px;font-weight:700">=</span> Carta Magna</div>'},
+{id:'ar-portanto',cat:'setas',name:'Portanto ∴',how:'três pontinhos de conclusão',html:'<div class="m-arrowline print"><span style="color:var(--acc-ink);font-size:24px;font-weight:700">∴</span> logo, é nulo o ato</div>'},
+{id:'ar-vejatb',cat:'setas',name:'"ver também"',how:'mãozinha/seta + remissão',html:'<div class="m-arrowline print"><span style="font-size:19px">☞</span><span style="border-bottom:2px dotted var(--acc-ink)">ver também art. 421</span></div>'},
+{id:'ar-atencaoflag',cat:'setas',name:'Bandeira "atenção"',how:'bandeirinha + palavra',html:'<div class="m-bmark"><span class="flag" aria-hidden="true"></span><span class="txt print" style="font-size:17px">atenção máxima aqui!</span></div>'},
+{id:'ar-memorize',cat:'setas',name:'"decoreba" com estrela',how:'★ + palavra circulada',html:'<div class="m-arrowline print"><span style="color:var(--acc-ink);font-size:22px">★</span><span class="m-circled" style="font-size:15px;padding:4px 12px;border-width:2px">decorar!</span></div>'},
+{id:'ar-conector',cat:'setas',name:'Conector de balões',how:'linha pontilhada entre ideias',html:'<div class="m-arrowline print"><span class="m-oval wob" style="font-size:13px;padding:3px 10px">dolo</span><svg width="34" height="10" viewBox="0 0 34 10" stroke="currentColor" fill="none" stroke-width="2" stroke-dasharray="3 4"><path d="M2 5h30"/></svg><span class="m-oval wob2" style="font-size:13px;padding:3px 10px">culpa</span></div>'});
+
+/* — caixas extras — */
+MODELS.push(
+{id:'cx-pasta',cat:'caixas',name:'Pastinha com aba',how:'aba em cima + caixa',html:'<div style="max-width:200px"><span class="print" style="display:inline-block;border:2px solid var(--ink);border-bottom:0;border-radius:8px 8px 0 0;padding:1px 12px;background:var(--acc);font-size:12px">civil</span><div class="print" style="border:2px solid var(--ink);border-radius:0 10px 10px 10px;padding:9px 12px;font-size:13.5px;background:#fff">Pacta sunt servanda: os contratos obrigam as partes.</div></div>'},
+{id:'cx-recibo',cat:'caixas',name:'Cupom serrilhado',how:'base recortada em zigue-zague',html:'<div class="print" style="max-width:190px;background:#fff;border:1.5px solid var(--ink);border-bottom:0;padding:10px 12px 12px;font-size:13px;clip-path:polygon(0 0,100% 0,100% calc(100% - 6px),95% 100%,90% calc(100% - 6px),85% 100%,80% calc(100% - 6px),75% 100%,70% calc(100% - 6px),65% 100%,60% calc(100% - 6px),55% 100%,50% calc(100% - 6px),45% 100%,40% calc(100% - 6px),35% 100%,30% calc(100% - 6px),25% 100%,20% calc(100% - 6px),15% 100%,10% calc(100% - 6px),5% 100%,0 calc(100% - 6px))">Checklist da petição:<br>✓ endereçamento ✓ qualificação ✓ pedidos</div>'},
+{id:'cx-titulobanner',cat:'caixas',name:'Caixa com banner',how:'fita atravessando o topo',html:'<div style="position:relative;max-width:195px;padding-top:10px"><span class="m-ribbon print" style="position:absolute;left:50%;top:0;transform:translateX(-50%);font-size:12px;padding:2px 12px">súmula 473</span><div class="print" style="border:2px solid var(--ink);border-radius:10px;padding:16px 12px 9px;font-size:13px;background:#fff">A Administração pode anular seus próprios atos…</div></div>'},
+{id:'cx-headercolor',cat:'caixas',name:'Cabeçalho colorido',how:'faixa pintada + corpo branco',html:'<div style="max-width:195px;border:2px solid var(--ink);border-radius:10px;overflow:hidden;background:#fff"><div class="print" style="background:var(--acc);padding:3px 10px;font-weight:700;font-size:13px">CONCEITO</div><div class="print" style="padding:7px 10px;font-size:13px">Tutela provisória = urgência + evidência.</div></div>'},
+{id:'cx-coracao',cat:'caixas',name:'Cantinho de coração',how:'♡ cobrindo um canto da caixa',html:'<div style="position:relative;max-width:190px"><div class="print" style="border:2px dashed var(--ink);border-radius:12px;padding:10px 12px;font-size:13px;background:var(--acc-soft)">Boa-fé objetiva: lealdade entre as partes.</div><span style="position:absolute;right:-8px;top:-12px;font-size:22px;color:var(--acc-ink)">♡</span></div>'},
+{id:'cx-dica',cat:'caixas',name:'Caixa "dica"',how:'lâmpada + moldura pontilhada',html:'<div class="print" style="max-width:200px;border:2px dotted var(--acc-ink);border-radius:10px;padding:9px 12px 9px 34px;position:relative;font-size:13px;background:#fff"><span style="position:absolute;left:9px;top:8px;font-size:16px">💡</span>Dica: leia o dispositivo antes da doutrina.</div>'},
+{id:'cx-listras',cat:'caixas',name:'Lateral listrada',how:'listras diagonais na borda',html:'<div style="display:flex;max-width:200px;border:2px solid var(--ink);border-radius:8px;overflow:hidden;background:#fff"><span style="width:12px;background:repeating-linear-gradient(45deg,var(--acc),var(--acc) 5px,#fff 5px,#fff 10px)"></span><span class="print" style="padding:8px 10px;font-size:13px">Atenção: prazo em dobro para litisconsortes (art. 229).</span></div>'},
+{id:'cx-soquina',cat:'caixas',name:'Só as quinas',how:'4 cantinhos, sem moldura',html:'<div class="m-corners print" style="font-size:13.5px;max-width:190px;padding:12px 18px">Princípio da insignificância: MARI — mínima ofensividade…</div>'},
+{id:'cx-polaroid',cat:'caixas',name:'Polaroide',how:'moldura branca + legenda embaixo',html:'<div style="max-width:170px;background:#fff;border:1px solid var(--line);box-shadow:3px 4px 10px rgba(91,70,54,.14);padding:8px 8px 6px;transform:rotate(1.5deg)"><div style="background:var(--acc-soft);border:1.5px solid var(--ink);height:64px;display:grid;place-items:center" class="hand">mapa do art. 5º</div><div class="tiny" style="text-align:center;font-size:13px;padding-top:4px">meus direitos ♡</div></div>'},
+{id:'cx-abas',cat:'caixas',name:'Caixa com abinhas',how:'abas laterais tipo fichário',html:'<div style="display:flex;max-width:205px"><div class="print" style="flex:1;border:2px solid var(--ink);border-radius:10px;padding:9px 12px;font-size:13px;background:#fff">Espécies de tutela: urgência (cautelar/antecipada) e evidência.</div><div style="display:grid;gap:4px;padding-left:0;margin-left:-2px"><span style="writing-mode:vertical-rl;background:var(--acc);border:1.5px solid var(--ink);border-left:0;border-radius:0 6px 6px 0;font-size:10px;padding:6px 2px" class="print">CPC</span></div></div>'});
+
+/* — esquemas jurídicos (ideias vindas da v13) — */
+MODELS.push(
+{id:'es-comparativo',cat:'esquemas',name:'Comparativo de institutos',how:'2 colunas com cabeçalho colorido',html:'<div class="sch"><div class="sch-comp"><div class="col"><div class="h">absoluta</div><div class="b3">interesse público · inderrogável · ex officio</div></div><div class="col"><div class="h">relativa</div><div class="b3">interesse das partes · prorrogável · exceção</div></div></div></div>'},
+{id:'es-fluxo',cat:'esquemas',name:'Fluxo do processo',how:'caixinhas ligadas por setas',html:'<div class="sch sch-flow"><span class="bx">petição inicial</span><span class="ar">↓</span><span class="bx">citação</span><span class="ar">↓</span><span class="bx hl">contestação</span><span class="ar">↓</span><span class="bx">sentença</span></div>'},
+{id:'es-artigo',cat:'esquemas',name:'Artigo anotado',how:'lei seca + grifo + nota sua',html:'<div class="sch sch-art"><span class="ref">Art. 121, CP</span><div>Matar <em>alguém</em>: pena — reclusão, de <em>6 a 20 anos</em>.</div><div class="nota">↳ crime comum, material, doloso ♡</div></div>'},
+{id:'es-conceito',cat:'esquemas',name:'Conceito fechado',how:'termo + definição na caixa',html:'<div class="sch"><span class="hd">ato jurídico perfeito</span><div style="border:2px solid var(--ink);border-radius:8px;background:#fff;padding:6px 9px">Já consumado segundo a lei vigente ao tempo em que se efetuou (LINDB, art. 6º, §1º).</div></div>'},
+{id:'es-requisitos',cat:'esquemas',name:'Lista de requisitos',how:'checklist com caixinhas',html:'<div class="sch"><span class="hd">condições da ação</span><div>☑ legitimidade das partes<br>☑ interesse de agir<br>☒ <s>possibilidade jurídica</s> (caiu no CPC/15!)</div></div>'},
+{id:'es-regraexc',cat:'esquemas',name:'Regra × exceção',how:'2 caixas: regra cheia, exceção tracejada',html:'<div class="sch" style="display:grid;gap:5px"><div style="border:2px solid var(--ink);background:var(--acc-soft);border-radius:8px;padding:5px 9px"><b>regra:</b> ninguém é obrigado a produzir prova contra si</div><div style="border:2px dashed var(--ink);border-radius:8px;padding:5px 9px"><b>exceção:</b> bafômetro? não — recusa não gera crime</div></div>'},
+{id:'es-prazos',cat:'esquemas',name:'Quadro de prazos',how:'tabelinha de 2 colunas',html:'<div class="sch"><table class="sch-table"><tr><th>ato</th><th>prazo</th></tr><tr><td>contestação</td><td>15 dias</td></tr><tr><td>apelação</td><td>15 dias</td></tr><tr><td>embargos decl.</td><td>5 dias</td></tr></table></div>'},
+{id:'es-timeline',cat:'esquemas',name:'Linha do tempo',how:'linha vertical + bolinhas',html:'<div class="sch"><span class="hd">fases do inquérito</span><ul class="sch-tl"><li>notitia criminis</li><li>diligências</li><li>indiciamento</li><li>relatório final</li></ul></div>'},
+{id:'es-mapa',cat:'esquemas',name:'Mini mapa mental',how:'centro + ramificações',html:'<div class="sch sch-mind"><span class="c">culpa</span><span class="brs"><span class="br">negligência</span><span class="br">imprudência</span><span class="br">imperícia</span></span></div>'},
+{id:'es-cornell',cat:'esquemas',name:'Método Cornell',how:'coluna de palavras-chave + resumo',html:'<div class="sch sch-cornell"><div class="top"><div>posse<br>detenção</div><div>Posse: exercício de fato de poderes da propriedade (art. 1.196)…</div></div><div class="foot"><b>resumo:</b> posse ≠ detenção!</div></div>'},
+{id:'es-julgado',cat:'esquemas',name:'Ficha de julgado',how:'tribunal + tese em caixinha',html:'<div class="sch"><div style="border:2px solid var(--ink);border-radius:10px;overflow:hidden;background:#fff"><div style="display:flex;justify-content:space-between;background:var(--acc);padding:3px 9px"><b>STF · RE 635.659</b><span>tema 506</span></div><div style="padding:6px 9px">Tese: descriminalização do porte p/ uso pessoal…</div></div></div>'},
+{id:'es-sumula',cat:'esquemas',name:'Cartão de súmula',how:'nº em destaque + texto',html:'<div class="sch" style="display:flex;gap:8px;align-items:flex-start"><span style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--acc);border:2px solid var(--ink);font-weight:700">331</span><div style="border-bottom:2px dotted var(--acc-ink);padding-bottom:4px">TST — terceirização: não forma vínculo com o tomador…</div></div>'},
+{id:'es-hipotese',cat:'esquemas',name:'Hipótese de incidência',how:'se… então… em setas',html:'<div class="sch sch-flow"><span class="bx">SE: auferir renda</span><span class="ar">↓ incide</span><span class="bx hl">ENTÃO: fato gerador do IR</span></div>'},
+{id:'es-crime',cat:'esquemas',name:'Iter criminis',how:'etapas com a consumação destacada',html:'<div class="sch sch-flow"><span class="bx">cogitação</span><span class="ar">↓</span><span class="bx">preparação</span><span class="ar">↓</span><span class="bx">execução</span><span class="ar">↓</span><span class="bx hl">consumação ★</span></div>'},
+{id:'es-recurso',cat:'esquemas',name:'Efeitos do recurso',how:'2 balões: devolutivo/suspensivo',html:'<div class="sch" style="display:flex;gap:8px"><span class="m-oval wob print" style="font-size:12.5px;padding:5px 10px;background:var(--acc-soft)">devolutivo<br>(sempre)</span><span class="m-oval wob2 print" style="font-size:12.5px;padding:5px 10px">suspensivo<br>(às vezes)</span></div>'},
+{id:'es-mnemonico',cat:'esquemas',name:'Mnemônico',how:'sigla grande + significado',html:'<div class="sch"><span class="hd" style="font-size:22px;letter-spacing:.2em">FIC</span><div><b style="color:var(--acc-ink)">F</b>ato típico · <b style="color:var(--acc-ink)">I</b>licitude · <b style="color:var(--acc-ink)">C</b>ulpabilidade</div></div>'},
+{id:'es-qa',cat:'esquemas',name:'Pergunta & resposta',how:'P: destacada / R: com fundamento',html:'<div class="sch" style="display:grid;gap:4px"><div><b class="t-hl">P:</b> cabe HC contra punição disciplinar militar?</div><div><b>R:</b> não quanto ao mérito (art. 142, §2º, CF)</div></div>'},
+{id:'es-doutrina',cat:'esquemas',name:'Fichinha de doutrina',how:'autor + ideia entre aspas',html:'<div class="sch m-quote" style="max-width:215px">Para <b>Alexandre de Moraes</b>, os direitos fundamentais são cláusulas pétreas…</div>'},
+{id:'es-ciclo',cat:'esquemas',name:'Ciclo de revisão',how:'1 · 7 · 30 dias em bolinhas',html:'<div class="sch" style="display:flex;align-items:center;gap:6px"><span class="n-fill" style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%">1d</span><span style="color:var(--acc-ink)">→</span><span class="n-circle" style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);background:var(--acc-soft)">7d</span><span style="color:var(--acc-ink)">→</span><span class="n-dashc" style="display:grid;place-items:center;width:34px;height:34px;border:2px dashed var(--ink);border-radius:50%">30d</span></div>'},
+{id:'es-legenda',cat:'esquemas',name:'Legenda de cores',how:'quadradinhos + significado',html:'<div class="sch" style="display:grid;gap:3px"><span><i style="display:inline-block;width:12px;height:12px;background:var(--acc);border-radius:3px"></i> conceito</span><span><i style="display:inline-block;width:12px;height:12px;background:var(--acc-soft);border:1.5px solid var(--acc-ink);border-radius:3px"></i> exceção</span><span><i style="display:inline-block;width:12px;height:12px;border:1.5px dashed var(--ink);border-radius:3px"></i> jurisprudência</span></div>'},
+{id:'es-votos',cat:'esquemas',name:'Placar de julgamento',how:'x votos a y bem visual',html:'<div class="sch" style="display:flex;align-items:center;gap:10px"><span class="m-3d hand" style="font-size:30px">6</span><span class="print">×</span><span class="hand" style="font-size:30px;color:var(--ink-3)">5</span><span class="print" style="font-size:12px">— tese fixada por maioria</span></div>'},
+{id:'es-antesdepois',cat:'esquemas',name:'Antes × depois da lei',how:'seta do regime antigo ao novo',html:'<div class="sch" style="display:flex;align-items:center;gap:8px"><span style="border:2px dashed var(--ink);border-radius:8px;padding:4px 9px;color:var(--ink-2)">CPC/73: 15 dias úteis? não!</span><span style="color:var(--acc-ink);font-size:18px">➳</span><span style="border:2px solid var(--ink);border-radius:8px;padding:4px 9px;background:var(--acc-soft)">CPC/15: dias úteis ✓</span></div>'});
+
+/* — geradores: subtópicos, tópicos e divisores — */
+var BSYMS=[['●','bolinha cheia'],['○','bolinha vazada'],['▪','quadradinho'],['▫','quadrado vazado'],['▸','triângulo'],['♡','coração'],['✦','estrela'],['✿','florzinha'],['→','setinha'],['✳','asterisco'],['§','parágrafo'],['⚖','balancinha']];
+var BLINES=[['','só o símbolo'],['b-line','sublinhado'],['b-dash','tracejado'],['b-wave','ondinha']];
+BSYMS.forEach(function(sym,symIndex){BLINES.forEach(function(line,lineIndex){
+  MODELS.push({id:'g-st-'+symIndex+'-'+lineIndex,cat:'subtopicos',name:sym[1]+(line[0]?' + '+line[1]:''),how:'desenhe '+sym[1]+' e escreva'+(line[0]?' sobre a linha':''),html:'<div class="m-bullet"><span class="b">'+sym[0]+'</span><span class="t '+line[0]+'">subtópico exemplo</span></div>'});
+});});
+var NBADGES=[['n-circle','círculo'],['n-fill','círculo cheio'],['n-square','quadrado c/ sombra'],['n-tag','etiqueta'],['n-hl','nº destacado'],['n-dashc','círculo tracejado']];
+var NLINES=[['t-under','linha'],['t-hl','marca-texto'],['t-dotline','pontilhado']];
+NBADGES.forEach(function(badge,badgeIndex){NLINES.forEach(function(line,lineIndex){
+  MODELS.push({id:'g-top-'+badgeIndex+'-'+lineIndex,cat:'topicos',name:badge[1]+' + '+line[1],how:'número no '+badge[1]+', texto com '+line[1],html:'<div class="m-num"><span class="n '+badge[0]+'">0'+((badgeIndex+lineIndex)%9+1)+'</span><span class="t '+line[0]+' print">assunto do tópico</span></div>'});
+});});
+var DMIDS=[['♡','coração'],['✦','estrelinha'],['★','estrela cheia'],['❀','flor'],['·','pontinho'],['➳','flechinha'],['§','parágrafo'],['⚖','balança'],['☁','nuvem'],['✧ ✦ ✧','três estrelas']];
+var DLINES=[['ln','linha'],['lnd','tracejado'],['lndot','pontilhado']];
+DMIDS.forEach(function(mid,midIndex){DLINES.forEach(function(line,lineIndex){
+  MODELS.push({id:'g-dv-'+midIndex+'-'+lineIndex,cat:'divisores',name:line[1]+' + '+mid[1],how:'trace, desenhe '+mid[1]+', continue',html:'<div class="m-div"><span class="'+line[0]+'"></span><span class="mid">'+mid[0]+'</span><span class="'+line[0]+'"></span></div>'});
+});});
+MODELS.push(
+{id:'dv-zig',cat:'divisores',name:'Zigue-zague',how:'montanhas pequenas seguidas',html:'<div class="m-zigzag" role="img" aria-label="divisor zigue-zague"></div>'},
+{id:'dv-loop',cat:'divisores',name:'Linha com lacinho',how:'loop no meio da linha',html:'<div class="m-loopline" role="img" aria-label="divisor com laço"></div>'});
+
+/* — marca-texto: mais duplas + trios — */
+MODELS.push(
+{id:'mt-9',cat:'marcatexto',name:'Rosa + Céu',how:'tese rosa · dispositivo céu',combo:['#f6c6da','#bfdcf5'],sample:['tese','dispositivo']},
+{id:'mt-10',cat:'marcatexto',name:'Lavanda + Menta',how:'doutrina lavanda · prazo menta',combo:['#d9c8f5','#c4e8d1'],sample:['doutrina','prazo']},
+{id:'mt-11',cat:'marcatexto',name:'Pêssego + Céu',how:'exemplo pêssego · regra céu',combo:['#f8d2b8','#bfdcf5'],sample:['exemplo','regra']},
+{id:'mt-12',cat:'marcatexto',name:'Amarelo + Menta',how:'chave amarelo · requisito menta',combo:['#f7e6a5','#c4e8d1'],sample:['palavra-chave','requisito']},
+{id:'mt-13',cat:'marcatexto',name:'Rosa + Lilás',how:'atenção rosa · súmula lilás',combo:['#f6c6da','#d9c8f5'],sample:['atenção','súmula']},
+{id:'mt-14',cat:'marcatexto',name:'Céu + Amarelo',how:'lei céu · exceção amarelo',combo:['#bfdcf5','#f7e6a5'],sample:['lei seca','exceção']},
+{id:'mt-15',cat:'marcatexto',name:'Menta + Pêssego',how:'jurisprudência menta · crítica pêssego',combo:['#c4e8d1','#f8d2b8'],sample:['jurisprudência','crítica']},
+{id:'mt-16',cat:'marcatexto',name:'Lilás + Amarelo',how:'conceito lilás · exemplo amarelo',combo:['#d9c8f5','#f7e6a5'],sample:['conceito','exemplo']},
+{id:'mt-17',cat:'marcatexto',name:'Céu + Pêssego',how:'processo céu · material pêssego',combo:['#bfdcf5','#f8d2b8'],sample:['processual','material']},
+{id:'mt-18',cat:'marcatexto',name:'Rosa + Menta',how:'vedação rosa · permissão menta',combo:['#f6c6da','#c4e8d1'],sample:['vedação','permissão']},
+{id:'mt-19',cat:'marcatexto',name:'Bege + Céu',how:'contexto bege · norma céu',combo:['#ecdcc3','#bfdcf5'],sample:['contexto','norma']},
+{id:'mt-20',cat:'marcatexto',name:'Cinza + Rosa',how:'neutro cinza · alerta rosa',combo:['#e3e0da','#f6c6da'],sample:['neutro','alerta']},
+{id:'mt-t1',cat:'marcatexto',name:'Trio pastel clássico',how:'regra · exceção · exemplo',combo:['#bfdcf5','#f6c6da','#f7e6a5'],sample:['regra','exceção']},
+{id:'mt-t2',cat:'marcatexto',name:'Trio primavera',how:'conceito · prazo · atenção',combo:['#d9c8f5','#c4e8d1','#f8d2b8'],sample:['conceito','prazo']},
+{id:'mt-t3',cat:'marcatexto',name:'Trio sorvete',how:'lei · doutrina · jurisprudência',combo:['#f6c6da','#f7e6a5','#bfdcf5'],sample:['lei','doutrina']},
+{id:'mt-t4',cat:'marcatexto',name:'Trio candy',how:'título · destaque · nota',combo:['#f8d2b8','#d9c8f5','#c4e8d1'],sample:['título','destaque']},
+{id:'mt-t5',cat:'marcatexto',name:'Trio sóbrio',how:'base neutra + 2 acentos',combo:['#e3e0da','#ecdcc3','#bfdcf5'],sample:['base','acento']});
+
+/* — fitas & doodles — */
+var WASHIS=[
+['listras diagonais','repeating-linear-gradient(45deg,var(--acc),var(--acc) 7px,rgba(255,255,255,.8) 7px,rgba(255,255,255,.8) 14px)'],
+['bolinhas','radial-gradient(circle at 7px 7px,var(--acc-ink) 2.5px,transparent 3px) 0 0/16px 14px, var(--acc-soft)'],
+['quadriculada','repeating-linear-gradient(0deg,rgba(91,70,54,.14) 0 1px,transparent 1px 8px),repeating-linear-gradient(90deg,rgba(91,70,54,.14) 0 1px,transparent 1px 8px),var(--acc-soft)'],
+['coraçõezinhos','radial-gradient(circle at 8px 8px,var(--acc) 3px,transparent 3.5px) 0 0/18px 16px,#fff'],
+['listras retas','repeating-linear-gradient(90deg,var(--acc) 0 8px,var(--acc-soft) 8px 16px)'],
+['zigue-zague','repeating-linear-gradient(135deg,var(--acc) 0 6px,rgba(255,255,255,.85) 6px 12px)'],
+['degradê','linear-gradient(90deg,var(--acc),var(--acc-soft))'],
+['pontilhada','radial-gradient(circle at 5px 5px,rgba(91,70,54,.3) 1.2px,transparent 1.6px) 0 0/10px 10px,var(--acc-soft)']
+];
+WASHIS.forEach(function(washi,washiIndex){MODELS.push({id:'wa-'+washiIndex,cat:'adesivos',name:'Washi '+washi[0],how:'fita reta, padrão de '+washi[0],html:'<div class="m-washi" style="background:'+washi[1]+'"></div>'});});
+var DOODLES=[
+['brilhinhos','✦ ✧ ✦','estrelinhas de 4 pontas'],
+['coraçõezinhos','♡ ♥ ♡','corações cheios e vazados'],
+['plantinhas','✿ ❀ ✾','flores e folhinhas'],
+['clima','☀ ☁ ☂','sol, nuvem e chuva'],
+['música','♪ ♫ ♩','notinhas musicais'],
+['estrelas','★ ☆ ★','estrelas cheias e vazadas'],
+['justiça','⚖ § ✒','balança, parágrafo e pena'],
+['setinhas','➳ → ⇢','flechinhas variadas'],
+['carinhas','◡̈ ◠‿◠','rostinhos felizes'],
+['xadrez','▚ ▞ ▚','quadradinhos alternados']
+];
+DOODLES.forEach(function(doodle,doodleIndex){MODELS.push({id:'dd-'+doodleIndex,cat:'adesivos',name:'Doodles: '+doodle[0],how:doodle[2],html:'<div class="m-doodleset">'+doodle[1]+'</div>'});});
+MODELS.push(
+{id:'ad-canto1',cat:'adesivos',name:'Canto de moldura',how:'2 linhas no canto + doodle',html:'<div class="m-corner"><span class="dd">✦</span></div>'},
+{id:'ad-canto2',cat:'adesivos',name:'Canto florido',how:'canto + florzinhas',html:'<div class="m-corner" style="border-radius:0"><span class="dd">✿ ❀</span></div>'},
+{id:'ad-tape-x',cat:'adesivos',name:'Fitas em X',how:'duas fitas cruzadas',html:'<div style="position:relative;width:110px;height:56px"><span class="m-washi" style="position:absolute;inset:auto;left:0;top:18px;width:110px;height:20px;background:var(--acc);opacity:.55;transform:rotate(-14deg)"></span><span class="m-washi" style="position:absolute;left:0;top:18px;width:110px;height:20px;background:var(--acc-soft);opacity:.85;transform:rotate(12deg)"></span></div>'},
+{id:'ad-clip',cat:'adesivos',name:'Clipe desenhado',how:'espiral simples de 3 voltas',html:'<svg width="34" height="60" viewBox="0 0 34 60" fill="none" stroke="var(--acc-ink)" stroke-width="2.6" stroke-linecap="round"><path d="M11 46 V14 a6 6 0 0 1 12 0 v30 a10 10 0 0 1 -20 0 V16"/></svg>'},
+{id:'ad-pin',cat:'adesivos',name:'Alfinete',how:'bolinha + palito inclinado',html:'<div style="transform:rotate(20deg)"><svg width="30" height="48" viewBox="0 0 30 48" fill="none"><circle cx="15" cy="10" r="8" fill="var(--acc)" stroke="var(--ink)" stroke-width="2"/><path d="M15 18 v24" stroke="var(--ink)" stroke-width="2.4" stroke-linecap="round"/></svg></div>'},
+{id:'ad-etiqueta',cat:'adesivos',name:'Etiqueta com furo',how:'tag de presente + cordinha',html:'<div style="display:flex;align-items:center;gap:2px"><svg width="14" height="20" viewBox="0 0 14 20" fill="none" stroke="var(--ink-2)" stroke-width="1.6"><path d="M13 2 C4 6 4 14 13 18"/></svg><span class="print" style="border:2px solid var(--ink);border-radius:4px 10px 10px 4px;padding:4px 12px 4px 16px;background:var(--acc-soft);position:relative;font-size:13px"><i style="position:absolute;left:5px;top:50%;transform:translateY(-50%);width:5px;height:5px;border-radius:50%;background:#fff;border:1.5px solid var(--ink)"></i>vol. 1</span></div>'}
+);
+
 MODELS.forEach(function(model){
   if(model.combo){
-    model.html='<div class="m-combo"><div class="swipes"><span class="sw" style="background:'+model.combo[0]+'"></span><span class="sw" style="background:'+model.combo[1]+'"></span></div><div class="sample">A <em style="background:'+model.combo[0]+'">'+esc(model.sample[0])+'</em> se prova com o <em style="background:'+model.combo[1]+'">'+esc(model.sample[1])+'</em>.</div><div class="names">'+esc(model.name)+'</div></div>';
+    var swipes=model.combo.map(function(color){return '<span class="sw" style="background:'+color+'"></span>';}).join('');
+    model.html='<div class="m-combo"><div class="swipes">'+swipes+'</div><div class="sample">A <em style="background:'+model.combo[0]+'">'+esc(model.sample[0])+'</em> anda com a <em style="background:'+model.combo[1]+'">'+esc(model.sample[1])+'</em>.</div><div class="names">'+esc(model.name)+'</div></div>';
   }
 });
 
@@ -529,6 +786,7 @@ document.getElementById('q').addEventListener('input',function(){
   var input=document.getElementById('q');input.focus();
 });
 
+document.getElementById('total-count').textContent=MODELS.length+' ideias de lettering';
 applyAccent();renderDots();render();
 })();
 </script>
